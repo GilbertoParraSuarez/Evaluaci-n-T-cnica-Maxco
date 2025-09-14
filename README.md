@@ -218,6 +218,7 @@ php artisan route:clear
 # Optimizar aplicación para producción
 php artisan optimize
 ```
+Màs info: https://deepwiki.com/GilbertoParraSuarez/Maxco/1-maxco-sales-management-system
 
 ## Solución de Problemas Comunes
 
