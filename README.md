@@ -220,39 +220,9 @@ php artisan optimize
 ```
 Màs info: https://deepwiki.com/GilbertoParraSuarez/Maxco/1-maxco-sales-management-system
 
-## Solución de Problemas Comunes
 
-### Error: "The zip extension and unzip/7z commands are both missing"
-
-Solución: Habilita la extensión zip en tu archivo `php.ini`:
-```ini
-extension=zip
-```
-Luego reinicia tu servidor web.
-
-### Error de Conexión a la Base de Datos
 
 1. Verifica que MySQL esté ejecutándose
 2. Confirma las credenciales en el archivo `.env`
 3. Asegúrate de que la base de datos `maxco` existe
 
-### Assets no se Cargan
-
-1. Ejecuta `npm run build` para compilar assets
-2. Verifica que el servidor web tenga permisos de lectura en la carpeta `public/`
-
-## Contribución
-
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -m 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
-## Licencia
-
-Este proyecto está licenciado bajo [especificar licencia].
-
-## Soporte
-
-Para reportar bugs o solicitar nuevas funcionalidades, por favor abre un issue en el repositorio del proyecto.
